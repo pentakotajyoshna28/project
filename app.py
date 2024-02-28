@@ -47,8 +47,8 @@ features = ['Number_of_vehicles_involved','Number_of_casualties','Hour_of_Day','
        'Educational_level','Service_year_of_vehicle','Day_of_week','Area_accident_occured']
 
 # set the app heading in markdown form
-st.markdown("“, unsafe_allow_html=True)
-Accident Severity Prediction App 🚧
+st.markdown("Accident Severity Prediction App 🚧“, unsafe_allow_html=True)
+
 
 
 
