@@ -49,10 +49,8 @@ features = ['Number_of_vehicles_involved','Number_of_casualties','Hour_of_Day','
 
 # set the app heading in markdown form
 st.markdown("Accident Severity Prediction App 🚧", unsafe_allow_html=True)
-
-
 def main():
-# take input from users using st.form function
+  # take input from users using st.form function
        with st.form("road_traffic_severity_form"):
               st.subheader("Pleas enter the following inputs:")
               # define variable to store user inputs
@@ -100,7 +98,7 @@ def main():
               img = Image.open("pred_force_plot.jpg")
               # image to display on website 
               st.image(img, caption='Model explanation using shap'
-if __name__ == '__main__':
+if __name__ =='__main__':
    main()
 
 
