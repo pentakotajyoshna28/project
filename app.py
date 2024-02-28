@@ -99,4 +99,5 @@ def main():
               img = Image.open("pred_force_plot.jpg")
               # image to display on website 
               st.image(img, caption='Model explanation using shap'
-   main()
+  if __name__ == '__main__':
+      main()
