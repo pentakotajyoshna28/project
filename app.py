@@ -97,8 +97,8 @@ def main():
                               pred_arr, feature_names=features, matplotlib=True,show=False).savefig("pred_force_plot.jpg", bbox_inches='tight')
               img = Image.open("pred_force_plot.jpg")
               # image to display on website 
-              st.image(img, caption='Model explanation using shap'
-if __app__ =='__main__':
+              st.image(img, caption='Model explanation using shap')
+if __name__ =='__main__':
     main()
 
 
