@@ -71,7 +71,7 @@ def main():
               # put a submit button to predict the output of the model
               submit = st.form_submit_button("Predict")
               if submit:
-              input_array = np.array([collision,Age_band,Sex,Education,
+                input_array = np.array([collision,Age_band,Sex,Education,
                                       service_vehicle,Day_week,Accident_area], ndmin=2)
 
               # encode all the categorical features 
