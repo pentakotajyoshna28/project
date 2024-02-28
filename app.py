@@ -99,7 +99,7 @@ def main():
               # image to display on website 
               st.image(img, caption='Model explanation using shap'
 if __name__ =='__main__':
-   main()
+    main()
 
 
 
